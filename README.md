@@ -10,7 +10,7 @@ TBD as we evaluate free platforms, if you recommendations, please reach out on [
 
 
 ## Just want to quickly look at some notebooks, without executing any code?
-Brows it on the [Juypyter.org notebook viewer](https://nbviewer.jupyter.org/github/adipola/ml-with-apache-spark/tree/main/)
+Brows it on the [Juypyter.org notebook viewer](https://nbviewer.jupyter.org/github/adipola/ml-with-apache-spark/tree/main/ch03/)
 <img src="https://nbviewer.jupyter.org/static/img/nav_logo.svg" width="90" />
 
 ## Want to run this project using a Docker image?
