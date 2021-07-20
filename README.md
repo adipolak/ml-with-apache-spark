@@ -6,7 +6,7 @@ This project aims at teaching you the Apache Spark MLlib in python. It contains 
 # Quick Start
 
 ## Want to play with these notebooks online without having to install anything?
-TBD as we evaluate free platforms, if you recommendations, please reach out on [@AdiPolak](https://twitter.com/AdiPolak)
+TBD as we evaluate free platforms, if you have any recommendations, please reach out on [@AdiPolak](https://twitter.com/AdiPolak)
 
 
 ## Just want to quickly look at some notebooks, without executing any code?
