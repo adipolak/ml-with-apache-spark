@@ -1,6 +1,6 @@
-Machine Learning with Apache Spark Ecosystem Notebooks
+Machine Learning with Apache Spark Notebooks
 ==========================
-This project aims at teaching you the Apache Spark MLlib in python. It contains the example code and solutions to the exercises in my O'Reilly upcoming book Machine Learning with Apache Spark Ecosystem.
+This project aims at teaching you the Apache Spark MLlib in python. It contains the example code and solutions to the exercises in O'Reilly upcoming book Machine Learning with Apache Spark by Adi Polak.
 
 
 # Quick Start
