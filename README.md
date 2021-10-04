@@ -8,6 +8,11 @@ This project aims at teaching you the Apache Spark MLlib in python. It contains 
 ## Want to play with these notebooks online without having to install anything?
 TBD as we evaluate free platforms, if you have any recommendations, please reach out on [@AdiPolak](https://twitter.com/AdiPolak)
 
+At the moment, you can use docker with running the following command. Memory is for providing jupyter environment with more memory, --mount is for mounting the local library, where all you work will be saved. `adipolak/ml-with-apache-spark-pytorch-tensorflow` is an image in docker hub. -p are the port used for interacting with jupyter notebook.
+
+```code
+docker run -it --memory="28g" --memory-swap="30g"  -p 8888:8888 --mount type=bind,source=$(pwd),target=/home/jovyan adipolak/ml-with-apache-spark-pytorch-tensorflow
+```
 
 ## Just want to quickly look at some notebooks, without executing any code?
 Brows it on the [Juypyter.org notebook viewer](https://nbviewer.jupyter.org/github/adipola/ml-with-apache-spark/tree/main/ch03/)
