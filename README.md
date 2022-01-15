@@ -32,6 +32,11 @@ TBD - would probably be using Docker.
 **Which Python version should I use?**
 
 
+**I get Py4JJavaError: An error occurred while calling o{some number}.parquet. (Reading Parquet file), what to do?**
+From Jupyter enter the terminal and validate your Java version, given that we use Spark 3.2 it should be `openjdk version "11.0.11"`.
+You local Java runtime should be of the same version - local Java runtime -  is the Java that installed on the machine where you are running your docker from.
+
+
 **Which Apache Spark version should I use?**
 The apache spark version is 3.1.1
 
