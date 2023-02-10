@@ -15,7 +15,7 @@ docker run -it --memory="28g" --memory-swap="30g"  -p 8888:8888 --mount type=bin
 ```
 
 ## Just want to quickly look at some notebooks, without executing any code?
-Brows it on the [Juypyter.org notebook viewer](https://nbviewer.jupyter.org/github/adipola/ml-with-apache-spark/tree/main/ch03/)
+Brows it on the [Juypyter.org notebook viewer](https://nbviewer.jupyter.org/github/adipola/ml-with-apache-spark/tree/main/notebooks/)
 <img src="https://nbviewer.jupyter.org/static/img/nav_logo.svg" width="90" />
 
 ## Want to run this project using a Docker image?
