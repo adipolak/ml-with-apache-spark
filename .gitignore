@@ -131,3 +131,15 @@ dmypy.json
 
 # mac
 .DS_Store
+
+
+
+
+.bash_history
+.jupyter/
+.keras/
+.local/
+.scala_history
+	
+
+
