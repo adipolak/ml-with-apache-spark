@@ -34,10 +34,6 @@ docker run -it --memory="28g" --memory-swap="30g"  -p 8888:8888 --mount type=bin
 ```
 
 
-## Want to install this project on your own machine?
-TBD - would probably be using Docker.
-
-
 # FAQ
 
 **Which Python version should I use?**
@@ -50,6 +46,10 @@ You local Java runtime should be of the same version - local Java runtime -  is 
 
 **Which Apache Spark version should I use?**
 The apache spark version is 3.1.1
+
+**I don't have enough local memory; can I run it in the cloud?**
+Yes! you will need a prebuilt environment that has Spark, TensorFlow, PyTorch and MLFlow like Databricks or others.
+Once you have that, you can clone the repo into your new cloud environment and run the notebooks, or simply copy the notebooks themselves. 
 
 # Contributors
 I want to thank everyone who contributed to this project by providing helpful feedback, filing issues, or submitting Pull Requests. 
