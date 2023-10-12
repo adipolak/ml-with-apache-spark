@@ -20,7 +20,18 @@ Brows it on the [Juypyter.org notebook viewer](https://nbviewer.jupyter.org/gith
 
 ## Want to run this project using a Docker image?
 
-Read the Docker instructions - TBD
+Clone this repo:
+```code
+gh repo clone adipolak/ml-with-apache-spark
+```
+CD into the repo
+```code
+cd ml-with-apache-spark
+```
+run:
+```code
+docker run -it --memory="28g" --memory-swap="30g"  -p 8888:8888 --mount type=bind,source=$(pwd),target=/home/jovyan adipolak/ml-with-apache-spark
+```
 
 
 ## Want to install this project on your own machine?
